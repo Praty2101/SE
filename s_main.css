@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d; /* Dark theme background */
+    color: #fff; /* Text color */
+  }
+  
+  header {
+    background-color: #262626; /* Dark theme header background */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00B200; /* Hack The Box green color for border */
+  }
+  
+  header h1 {
+    text-transform: capitalize; /* Capitalize title */
+  }
+  
+  .container {
+    margin: 20px auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #00B200; /* Hack The Box green color for borders */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #005000; /* Hack The Box green color for table header */
+    border-left: 1px solid #00B200; /* Ensure left border is visible */
+    text-transform: capitalize; /* Capitalize table headers */
+  }
+  
+  select {
+    padding: 5px;
+    background-color: #005000; /* Hack The Box green color for dropdown buttons */
+    color: #fff; /* Text color for dropdown buttons */
+    border: 1px solid #00B200; /* Hack The Box green color for dropdown button border */
+    border-radius: 5px; /* Rounded border for dropdown buttons */
+  }
+  
+  footer {
+    background-color: #262626; /* Dark theme footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }  

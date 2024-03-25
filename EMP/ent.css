@@ -1,0 +1,193 @@
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #4caf50; /* Green color for the header */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4caf50;
+    text-align: center; /* Center align h2 elements */
+}
+
+h3 {
+    color: #4caf50; /* Green color for h3 elements */
+    font-weight: bold; /* Make the text bold */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #212121;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circular container */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.class-diagram-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.class-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.class-diagram img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+}
+
+.activity-diagram-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.activity-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.activity-diagram img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+}
+
+.use-case-diagram-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.use-case-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.use-case-diagram img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+}
+
+.dfd-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dfd-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.dfd-diagram img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+}
+
+.sequence-diagram-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sequence-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sequence-diagram img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+}
+
+.conclusion-section,
+.thank-you-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conclusion-section p,
+.thank-you-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}

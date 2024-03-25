@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page - Employee Management System</title>
+  <link rel="stylesheet" href="s_main.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Employee Management System</h1>
+  </header>
+  
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Department</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>Software Engineer</td>
+          <td>Engineering</td>
+          <td>
+            <select onchange="showEmployeeDetails(this)">
+              <option value="">Select Action</option>
+              <option value="details">Details</option>
+              <option value="status">Activity Status</option>
+              <option value="projectStatus">Project Status</option>
+              <option value="finance">Finance</option>
+              <option value="leaves">Leaves</option>
+              <option value="rate">Rating</option>
+              <option value="time">Contract</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>Marketing Manager</td>
+          <td>Marketing</td>
+          <td>
+            <select onchange="showEmployeeDetails(this)">
+              <option value="">Select Action</option>
+              <option value="details">Details</option>
+              <option value="status">Activity Status</option>
+              <option value="projectStatus">Project Status</option>
+              <option value="finance">Finance</option>
+              <option value="leaves">Leaves</option>
+              <option value="rate">Rating</option>
+              <option value="time">Contract</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Michael Johnson</td>
+          <td>HR Specialist</td>
+          <td>Human Resources</td>
+          <td>
+            <select onchange="showEmployeeDetails(this)">
+              <option value="">Select Action</option>
+              <option value="details">Details</option>
+              <option value="status">Activity Status</option>
+              <option value="projectStatus">Project Status</option>
+              <option value="finance">Finance</option>
+              <option value="leaves">Leaves</option>
+              <option value="rate">Rating</option>
+              <option value="time">Contract</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Emily Brown</td>
+          <td>Financial Analyst</td>
+          <td>Finance</td>
+          <td>
+            <select onchange="showEmployeeDetails(this)">
+              <option value="">Select Action</option>
+              <option value="details">Details</option>
+              <option value="status">Activity Status</option>
+              <option value="projectStatus">Project Status</option>
+              <option value="finance">Finance</option>
+              <option value="leaves">Leaves</option>
+              <option value="rate">Rating</option>
+              <option value="time">Contract</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>David Lee</td>
+          <td>Operations Manager</td>
+          <td>Operations</td>
+          <td>
+            <select onchange="showEmployeeDetails(this)">
+              <option value="">Select Action</option>
+              <option value="details">Details</option>
+              <option value="status">Activity Status</option>
+              <option value="projectStatus">Project Status</option>
+              <option value="finance">Finance</option>
+              <option value="leaves">Leaves</option>
+              <option value="rate">Rating</option>
+              <option value="time">Contract</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="employee-details">
+    <!-- Employee details will be shown here -->
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Employee Management System. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Software Development Project</title>
+        <link rel="stylesheet" href="ent.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>    
+<body>
+    <header>
+        <h1>Software Development Project</h1>
+    </header>
+    
+    <main>
+        <section id="overview">
+            <h2>Project Overview</h2>
+            <p>The Employee Management System (EMS) is a robust software solution designed to streamline the administration and organization of employee-related processes within an organization. Leveraging modern technologies such as database management systems, web development frameworks, and secure authentication protocols, EMS offers functionalities including employee onboarding, performance tracking, payroll management, and leave scheduling. With its intuitive user interface and scalable architecture, EMS facilitates efficient human resource management, ensuring optimal workforce utilization and compliance with regulatory standards.
+            </p>
+        </section>
+        
+        <section id="team">
+            <h2>Team</h2>
+            <div class="team-members">
+                <figure>
+                    <img src="/EMP/image1.jpeg" alt="Pratyay Ghosh">
+                    <figcaption>Pratyay Ghosh<br>Roll: 30</figcaption>
+                </figure>
+                <figure>
+                    <img src="/EMP/image2.jpeg" alt="Subhrodip Mondal">
+                    <figcaption>Subhrodip Mondal<br>Roll: 51</figcaption>
+                </figure>
+                <figure>
+                    <img src="/EMP/image4.jpeg" alt="Sriza Das">
+                    <figcaption>Sriza Das<br>Roll: 49</figcaption>
+                </figure>
+                <figure>
+                    <img src="/EMP/image3.jpeg" alt="Priyanka Sarkar">
+                    <figcaption>Priyanka Sarkar<br>Roll: 31</figcaption>
+                </figure>
+            </div>
+        </section>
+                
+        <section id="milestones">
+            <h2>Milestones</h2>
+            <ul>
+                <li><strong>SRS (Software Requirements Specification)</strong>
+                    <ul>
+                        <li>
+                            <h3>1. Introduction</h3>
+                            <h4>1.1 Purpose</h4>
+                            <p>The primary goal of the SRS document is to put down the detailed description of the software requirements such as Employee Management System (EMS). This paper will be considered as a guideline by the design team throughout the process and will be the document to ensure that the product being built fulfills the system’s requirements.</p>
+                            <h4>1.2 Scope</h4>
+                            <p>This SRS paper will cover the EMS framework concerns; the system environment will be included as well. This system will enable authorized persons to control employee data, from the loading of new workers data to the updating, and deletion of the employee records. It will soon have the capabilities of creating reports on employee data as well.</p>
+                            <h4>1.3 Definitions, Acronyms & Abbreviations</h4>
+                            <p>EMS: Employee Management System<br>
+                            HR: Human Resources<br>
+                            UI: User Interface<br>
+                            UX: User Experience<br>
+                            CRUD: Create, Read, Update, Delete</p>
+                            <h4>1.4 References</h4>
+                            <p>SO/IEC/IEEE 29148:2011, Systems and software engineering -- Life cycle phases<br>
+                            IEEE 830-1998, IEEE Recommended Practice for Software Requirements Specifications<br>
+                            ISO/IEC/IEEE 25040:2011, Systems and software engineering -- Software life cycle processes</p>
+                            <h4>1.5 Overview</h4>
+                            <p>The User Interface of the EMS will be the application in web where only allowed users will be able to access employee data. The system shall be interactive allowing the admin to add, edit or remove employee records. The system also will provide reporting capabilities on detail of staff information.</p>
+                        </li>
+
+                        <li>
+                            <h3>2. Overall Description</h3>
+                            <h4>2.1 Product Perspective</h4>
+                            <p>Aims at creating EMS - the web-based app that will be available in a web browser. This system will be developed so it can be convenient and accessible for anyone to utilize.</p>
+                            <h4>2.2 Product Functions</h4>
+                            <p>The EMS will provide the following functions:</p>
+                                • User Registration and Authentication: The registration and authentication process will be assigned to the users through the unique credentials (a username and a password).</p><br>
+                                • Employee Data Management: The authorized users and the employees can be able to create, edit and delete the employee details from easy-to-use interfaces.</p><br>
+                                • Report Generation: Users who were approved on the level of making reports on employee data will be used for instance.</p>
+                            <h4>2.3 User Classes and Characteristics</h4>
+                            <p>The EMS will have two user classes:<br></p>
+                                • HR Administrator: This group will be granted all the privileges and they can perform each essential operation on an employee file.<br>
+                                • Employee: Along with this, the user class will have the right to view their own employee profile and edit their personal details as they might desire.<br>
+                            <h4>2.4 Operating Environment</h4>
+                            <p>It will be a web-based application that you can check out on the browser. The system will be designed in such a way that it should be platform-independent and provide support for all major browser e. g. Internet Explorer, Chrome or Firefox.
+                            </p>
+                            <h4>2.5 Design and Implementation Constraints</h4>
+                            <p> • The system must comply with GDPR and other local data protection laws.<br>
+                                • The system should be scalable to accommodate a growing number of users.</p>
+                            <h4>2.6 Documentation</h4> 
+                            <p>The user manual of the EMS amalgamates the instructions for the working of the system. This literature will be placed into formats both online and offline.</p>
+                            <h4>2.7 Assumptions and Dependencies</h4>
+                            <p>EMS expects that the user has available means which are browsers and also internet connection. The system as well, will presume that the user has the required credentials to be allowed to handle employee data according to the stipulations of this system.</p>
+                                
+                        </li>
+
+                        <li>
+                            <h3>3. Specific Requirements</h3>
+                            <h4>3.1 Feature</h4>
+                            <h4>3.1.1 User Registration and Authentication</h4>
+                            <p>EMS will avail an option for the users to register themselves together with authentication using an exclusive username and password. This functionality is the necessity of the system and is the most important of these.</p>
+                            <h4>3.1.2 Stimulus/Response Sequences</h4>
+                            <p> • EMS operation is realized by the user’s enrollment where a unique username and password is to be created.<br>
+                                • In the process of this check process, the EMS will ask for the user to show legitimate evidence of authorization before granting access to the system.<br>
+                                • The EMS will generate a new account into user base if the registration credentials provided are equivalent to the required credential standard.<br>
+                            <h4>3.1.3 Functional Requirements</h4>
+                            <p>The EMS module will enable this through a user-friendly interface being made solely available for authorized users that will enable them to manage employee data. Interface of UI will be focusing on usability and simplicity</p>
+                        </li>
+
+                        <li>
+                            <h3>4. User Interfaces</h3>
+                            <p>The EMS shall accommodate simultaneous users up to the level of 100 persons. The system is expected to be a CRUD performer on the employee records in less than 5 seconds as it gives a response quickly.</p>
+                        </li>
+
+                        <li>
+                            <h3>5. Performance Requirements</h3>
+                            <p>EMS as a platform-independent product shall be compatible across all the common web browsers.</p>
+                        </li>
+
+                        <li>
+                            <h3>6. Other Non-functional Requirements</h3>
+                            <p>TThe network must be secure and it will have to safeguard the integrity of user data against unauthorized intrusions. The system has to be able to grow and be stable enough to support a bigger number of users and it has to be reconfigured toward ever-increasing requirements of its functionality in the future.</p>
+                        </li>
+
+                        <li>
+                            <h3>7. Appendices</h3>
+                            <p> Appendix A: Glossary of Terms<br> 
+                                Appendix B: Use Cases <br>
+                                Appendix C: User Interface Designs<br> 
+                                Appendix D: System Architecture Diagrams<br> 
+                                Appendix E: Database Schema Diagrams<br>
+                                Appendix F: Test Cases<br>
+                                Appendix G: Assumptions and Dependencies<br>
+                                Appendix H: Risks and Mitigation Strategies<br>
+                                Appendix I: Change Management Plan<br>
+                                Appendix J: Maintenance and Support Plan</p>
+                        </li>
+
+                    </ul>
+                </li>
+                <!--<li>Project Kickoff</li>
+                <li>Completion of Backend Development</li>
+                <li>Integration Testing</li>
+                <li>Client Review</li>
+                <li>Deployment</li>
+                < Add more milestones as needed -->
+            </ul>
+        </section>
+        
+        
+        
+        <section id="technologies">
+            <h2>Technologies Used</h2>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+        </section>
+
+        <section class="class-diagram-section">
+            <h2>Class Diagram</h2>
+            <div class="class-diagram">
+                <img src="/EMP/img5.png" alt="Class Diagram">
+            </div>
+        </section>
+        
+        <section class="activity-diagram-section">
+            <h2>Activity Diagram</h2>
+            <div class="activity-diagram">
+                <img src="/EMP/img8.png" alt="Activity Diagram">
+            </div>
+        </section>
+
+        <section class="use-case-diagram-section">
+            <h2>Use Case Diagram</h2>
+            <div class="use-case-diagram">
+                <img src="/EMP/img7.png" alt="Use Case Diagram">
+            </div>
+        </section>
+
+        <section class="dfd-section">
+            <h2>Data Flow Diagram</h2>
+            <div class="dfd-diagram">
+                <img src="/EMP/img9.png" alt="Data Flow Diagram">
+            </div>
+        </section>
+
+        <section class="sequence-diagram-section">
+            <h2>Sequence Diagram</h2>
+            <div class="sequence-diagram">
+                <img src="/EMP/img6.png" alt="Sequence Diagram">
+            </div>
+        </section>
+
+        <section class="conclusion-section">
+            <h2>Conclusion</h2>
+            <p>Thank you for using our Employee Management System. We hope it has been helpful in managing your tasks efficiently.</p>
+        </section>
+
+        <section class="thank-you-section">
+            <h2>Thank You</h2>
+            <p>We appreciate your time and trust in our system. If you have any feedback or suggestions, please feel free to reach out to us.</p>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
